@@ -1,0 +1,56 @@
+generated: '2026-10-20'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://crossfireintegration.com/plans/
+sources:
+- https://crossfireintegration.com/plans/
+name: Sandfield pricing
+audience: business-product
+pricing_basis: flat-platform
+plans:
+- name: Essentials
+  price_text: $355 * per integration/month
+  price: 355
+  description: 1-5 integrations
+  features:
+  - 'Full-service: Your integrations built, tested and taken live by our team, then monitored and maintained'
+  - Prebuilt system connectors (SAP, Netsuite, Unleashed, Cin7, MYOB, etc.)
+  - 'Portal access: every message searchable, orders, invoices, shipments & label printing'
+  - Failed message alerts, with 24/7 monitoring and proactive resolution behind them
+  - 24/7 email & phone support
+  - Support response priority (P1 issues)
+  - Hosting environment - Shared
+  limits:
+  - name: Integrations
+    limit_text: 1-5 integrations
+- name: Business
+  price_text: Contact us for a custom quote
+  description: 6-20 integrations
+  features:
+  - 'Everything from Essentials plus:'
+  - Higher performance (<5min peak processing time)
+  - Content-based routing
+  - Up to 1200 messages per integration, per hour
+  - Configurable failure logging & message retries
+  - Synchronous processing
+  - Hosting environment - Private hosting & dedicated database
+  - Advanced message queueing
+  limits:
+  - name: Integrations
+    limit_text: 6-20 integrations
+- name: Enterprise
+  price_text: Contact us for a custom quote
+  description: 21+ integrations
+  features:
+  - 'Everything from Business plus:'
+  - Custom onboarding, training & dedicated change management support
+  - White-label order management portal
+  - Unlimited message processing (auto-scaling available)
+  - Ultra-fast processing (<2 min peak message processing time)
+  - Hosting Environment - Private, fully dedicated cloud environment
+  - Full control for live integration testing & deployment
+  - Access to integration mapping platform
+  limits:
+  - name: Integrations
+    limit_text: 21+ integrations
+docs: https://crossfireintegration.com/plans/

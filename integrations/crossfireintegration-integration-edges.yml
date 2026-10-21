@@ -1,0 +1,18 @@
+generated: '2026-10-20'
+method: none
+source:
+- https://zapier.com/apps/crossfireintegration/integrations
+- https://zapier.com/apps/sandfield/integrations
+- https://n8n.io/integrations/crossfireintegration/
+- https://composio.dev/toolkits/crossfireintegration
+- https://monid.ai/tools/crossfireintegration
+checked:
+- https://composio.dev/toolkits/crossfireintegration
+- https://monid.ai/tools/crossfireintegration
+- https://n8n.io/integrations/crossfireintegration/
+- https://zapier.com/apps/crossfireintegration/integrations
+- https://zapier.com/apps/sandfield/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

@@ -1,0 +1,25 @@
+generated: '2026-10-20'
+method: searched
+source: https://crossfireintegration.com/privacy-policy/
+signals:
+  data_subject_request:
+    evidence:
+      - source: https://crossfireintegration.com/privacy-policy/
+        http_status: 200
+        fetched: "true"
+        quote: "We will retain your information for as long as your account is active or as needed to provide you services. If you wish to cancel your account or request that we no longer use your information to provide you services contact our Support Team."
+        note: Allows users to request deletion or cessation of data use, indicating a data subject request right.
+  data_retention:
+    evidence:
+      - source: https://crossfireintegration.com/privacy-policy/
+        http_status: 200
+        fetched: "true"
+        quote: "We will retain your information for as long as your account is active or as needed to provide you services."
+        note: States the retention period is tied to account activity and service provision.
+  incident_notification:
+    evidence:
+      - source: https://crossfireintegration.com/privacy-policy/
+        http_status: 200
+        fetched: "true"
+        quote: "Finally, we may also share your Personal Information to comply with applicable laws and regulations, to respond to a subpoena, search warrant or other lawful request for information we receive, or to otherwise protect our rights."
+        note: Indicates they will disclose data in response to legal processes, implying incident handling and notification obligations.
